@@ -10,8 +10,8 @@ You are not allowed to collaborate during the sprint challenge.
 
 ## Project Setup
 
-- [ ] Run `npm install` to install your dependencies.
-- [ ] Run tests locally executing `npm test`.
+- [x] Run `npm install` to install your dependencies.
+- [x] Run tests locally executing `npm test`.
 
 ## Project Instructions
 
@@ -43,16 +43,23 @@ Your finished project must include all of the following requirements (further in
 
 ## Submission format
 
-- [ ] Submit via Codegrade by pushing commits to your `main` branch on Github.
-- [ ] Check Codegrade before the deadline to compare its results against your local tests.
-- [ ] Check Codegrade on the days following the Sprint Challenge for reviewer feedback.
-- [ ] New commits will be evaluated by Codegrade if pushed _before_ the sprint challenge deadline.
+- [x] Submit via Codegrade by pushing commits to your `main` branch on Github.
+- [x] Check Codegrade before the deadline to compare its results against your local tests.
+- [x] Check Codegrade on the days following the Sprint Challenge for reviewer feedback.
+- [x] New commits will be evaluated by Codegrade if pushed _before_ the sprint challenge deadline.
 
 ## Interview Questions
 
 Be prepared to demonstrate your understanding of this week's concepts by answering questions on the following topics.
 
 1. Differences between using _sessions_ or _JSON Web Tokens_ for authentication.
+    JSON web tokens are meant to specifically send authorized data, while session cookies are sending/storing data.
+
 2. What does `bcryptjs` do to help us store passwords in a secure manner?
+    Ultizing bcryptsjs adds another level of security by adding a salted hash to a password which creates a longer time of brute force attacking. 
+
 3. How are unit tests different from integration and end-to-end testing?
+    End to end tests all layers of the app, while unit test are testing specific components/ functions that results in a valve like a string.
+
 4. How does _Test Driven Development_ change the way we write applications and tests?
+    Coding to a fail/ succeed a test, we can minimize code, aviod duplication, errors outsdie our 'box so to speak'.
